@@ -15,9 +15,18 @@ def fetch_google_news():
 
     news_list = []
     for article in articles:
-        image_url = "https://via.placeholder.com/600x200"  # Default image
+        image_url = "https://via.placeholder.com/600x200"  # Default placeholder image
+
+        # Check if media_content exists
         if 'media_content' in article and len(article.media_content) > 0:
             image_url = article.media_content[0]['url']
+        
+        # If the article has an image in the 'summary', extract it (if available)
+        elif 'summary' in article:
+            soup = BeautifulSoup(article.summary, "html.parser")
+            img_tag = soup.find("img")
+            if img_tag and "src" in img_tag.attrs:
+                image_url = img_tag["src"]
 
         news_list.append({
             "title": article.title,
@@ -45,11 +54,17 @@ def scrape_ur_news():
         link = article.find("a")["href"] if article.find("a") else "#"
         link = f"https://www.hajim.rochester.edu{link}" if link.startswith("/") else link
 
+        # Try to find an image inside the article
+        image_url = "https://www.hajim.rochester.edu/che/images/banner.jpg"  # Default banner
+        img_tag = article.find("img")
+        if img_tag and "src" in img_tag.attrs:
+            image_url = f"https://www.hajim.rochester.edu{img_tag['src']}" if img_tag['src'].startswith("/") else img_tag['src']
+
         news_list.append({
             "title": title,
             "link": link,
             "date": "University News",
-            "image": "https://www.hajim.rochester.edu/che/images/banner.jpg",  # Default UR Chem Eng banner
+            "image": image_url,
             "source": "UR Chem Eng News"
         })
     
