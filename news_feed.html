@@ -1,63 +1,152 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Latest Research News</title>
-        <style>
-            body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
-            h2 { text-align: center; color: #333; }
-            .news-container { max-width: 700px; margin: auto; background: #fff; padding: 20px;
-                              border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); }
-            .news-item { border-bottom: 1px solid #ddd; padding: 15px 0; }
-            .news-item:last-child { border-bottom: none; }
-            .news-title { font-size: 18px; font-weight: bold; color: #0073e6; text-decoration: none; }
-            .news-title:hover { text-decoration: underline; }
-            .news-date { color: #777; font-size: 14px; }
-            img { width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px; margin-top: 10px; }
-            .source { font-size: 12px; color: #555; font-style: italic; }
-        </style>
-    </head>
-    <body>
-        <div class="news-container">
-            <h2>Latest Research News</h2>
-    
-        <div class="news-item">
-            <a class="news-title" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPeFk0cjdPMnJ4aDVYVEQ5bmxubkdpbGRNOEtXVGpOa2FwWXlnU3lBSzY5MW00aTlQZExLdXFiRUViVDZtVXItelJZc1ZJdlFCc3RyMWV5T0hsdkdWS21GQnVMOFhOTE84d1BaZS1kWmhDSlJwY2ljY3NBcE9JTlktZW5NT1g5S1ZsQ2ZzQkhwZWF0dkRqX2tjajlfV3VoSUhnQXBFWUo2TQ?oc=5" target="_blank">Darren Lipomi: A catalyst for change in chemical engineering - University of Rochester</a>
-            <p class="news-date">Wed, 09 Oct 2024 07:00:00 GMT</p>
-            <img src="https://via.placeholder.com/600x200" alt="News Image">
-            <p class="source">Source: Google News</p>
-        </div>
-        
-        <div class="news-item">
-            <a class="news-title" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPMkxXRVJnRS1ONTM5czQzNzlPOTh0U3JMbDQ0dEZRSFdJMDFUTTJhVllHSXZ5VlllZEYycFFTMEctWjJBcHIwVWpmRjFaU3pOMlFqZ3hFYnNfV2hOMkx3ZVp4a2Z2ZVltb0x5cnZxWENfM2N5WkF3akYyRFhUb1NJcXRuUkwzMUdWLUE?oc=5" target="_blank">Faculty earn esteem and recognition for professional contributions - University of Rochester</a>
-            <p class="news-date">Wed, 31 Jan 2024 08:00:00 GMT</p>
-            <img src="https://via.placeholder.com/600x200" alt="News Image">
-            <p class="source">Source: Google News</p>
-        </div>
-        
-        <div class="news-item">
-            <a class="news-title" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxONW5pVENOUEpLN2hlblo0U1pyeVZzbFlVWFdEYlhiSVh3ZVM5RVZtbG96NzhZWEVVTXMwd0hKaVlTYnZjM0lpY21mNHZqZHBJRnhYdVBSNV9zMm1EQTBKRkh1QlV1NmxtaUhUamVUWHhCSHpVZFcwRTBEckZScEFzLTRwZDJKZDl5VjZrMkwwdWlrS0dLV3hhNGN3RjZvRFVfS2N2eHkxeFZsVVhQQUVVX1Vn?oc=5" target="_blank">This low-cost catalyst helps turn seawater into fuel at scale - University of Rochester</a>
-            <p class="news-date">Wed, 15 Jul 2020 07:00:00 GMT</p>
-            <img src="https://via.placeholder.com/600x200" alt="News Image">
-            <p class="source">Source: Google News</p>
-        </div>
-        
-        <div class="news-item">
-            <a class="news-title" href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNbktlNy10akpxN2FwZDFXRlRONTJTdkRqQkowelhtOFpzQ1RFWW9jVkRNTDRJaVBKRmpZZ3RhNXJOVnRIYlAwcEl1eWlwUFhON1UwdHpaRW5McUl4cmlEYTlkSEtTTXRHVnMzTkJTSG9IRVpiNmdRdVB2ZExTaGYtSWpXaTM0Zw?oc=5" target="_blank">Summer in Rochester means research - University of Rochester</a>
-            <p class="news-date">Wed, 24 Jul 2019 07:00:00 GMT</p>
-            <img src="https://via.placeholder.com/600x200" alt="News Image">
-            <p class="source">Source: Google News</p>
-        </div>
-        
-        <div class="news-item">
-            <a class="news-title" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQR2p4OGFLTU1TRHBBMUhjR0RfeE9tRXp3WTQwLVpGcnFabFg5dWFoY1JBWk5WY2tnSWU3ZDlaZFVneXYycVNydEFST0UwaDRSb2ZSOEVvLUxOd0hxWFJtcEs5aFU5eFhGUXFzaUtsa2JId0h4S1RWUHJXd1Y4SWNiSGZ1QS1TMUZjYmc?oc=5" target="_blank">Recent awards showcase diverse accomplishments of Rochester faculty - University of Rochester</a>
-            <p class="news-date">Tue, 04 Oct 2022 07:00:00 GMT</p>
-            <img src="https://via.placeholder.com/600x200" alt="News Image">
-            <p class="source">Source: Google News</p>
-        </div>
-        
-        </div>
-    </body>
-    </html>
-    
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News Feed</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
+    .article { border-bottom: 1px solid #ddd; padding: 15px 0; }
+    .article:last-child { border-bottom: none; }
+    .title { font-size: 18px; font-weight: bold; color: #0073e6; text-decoration: none; }
+    .title:hover { text-decoration: underline; }
+    .date { color: #777; font-size: 14px; }
+    .source { font-size: 12px; color: #555; }
+    .summary { margin-top: 10px; color: #333; }
+  </style>
+</head>
+<body>
+  <h2>News Feed</h2>
+
+  <div class="article">
+    <a class="title" href="https://www.rochester.edu/newscenter/january-2024-faculty-awards-accolades-590762/" target="_blank">Faculty earn esteem and recognition for professional contributions - University of Rochester</a>
+    <div class="date">2024-01-31 - General News (Google News)</div>
+    <div class="summary">University of Rochester faculty members have recently received numerous prestigious awards and honors for their contributions in various fields. Bryan Frantz from the Department of Dentistry was awarded the Gold Medal Award by the American Academy of Periodontology, while Christopher Kanan from the Department of Computer Science was named a senior member by the AAAI, recognizing his achievements in artificial intelligence. Additionally, Alayna Loiselle, an associate professor in Orthopaedics, received the Orthopaedic Research Society’s Adele L. Boskey, PhD Award for her significant contributions to musculoskeletal research and mentorship, and Marc Porosoff of the Department of Chemical Engineering was part of a team awarded in the Scialog: Negative Emissions Science initiative, aiming to advance technologies for capturing</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.rochester.edu/newscenter/darren-lipomi-a-catalyst-for-change-in-chemical-engineering-621992/" target="_blank">Darren Lipomi: A catalyst for change in chemical engineering - University of Rochester</a>
+    <div class="date">2024-10-09 - General News (Google News)</div>
+    <div class="summary">Darren Lipomi, the new chair of the Department of Chemical Engineering at the University of Rochester, is committed to educating the public and academia about the positive impacts and potential of chemical engineering, especially in addressing environmental challenges. He has been actively involved in science communication, reaching a wide audience through his YouTube channel and podcasts, where he shares his knowledge and experiences in nanoengineering and chemical engineering. Lipomi, who has returned to his native New York for this role, sees the University of Rochester as a prime location for innovation in chemical engineering, highlighted by the recent addition of early-career faculty and the establishment of new research programs, including his exciting work on haptic holography.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.usm.edu/news/2024/release/scialog-fellow-zhe-qiang.php" target="_blank">USM Polymer Professor Awarded Funding as Scialog Fellow in Negative Emissions - Southern Miss Now</a>
+    <div class="date">2024-02-16 - General News (Google News)</div>
+    <div class="summary">Dr. Zhe Qiang, an assistant professor at The University of Southern Mississippi, has been selected as a Scialog Fellow in Negative Emissions Science, collaborating on a project to develop sustainable aviation fuel from biogas with professors from the University of Rochester and Yale University. Their project, funded by the Sloan Foundation, focuses on the modular production of aviation fuel using Zoned Joule Heating, aiming to create a low-cost, energy-efficient solution for one of the most difficult-to-decarbonize sectors. Dr. Qiang's work, which addresses significant challenges in energy consumption and greenhouse gas emissions in manufacturing and chemical sectors, has been recognized for its potential to transform industry practices towards environmental sustainability and economic diversity.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://youtu.be/fGBcf3_VHEs" target="_blank">New Hajim School Promo Video</a>
+    <div class="date">2023-01-01 - UR Chem Eng News (2023)</div>
+    <div class="summary">The text provided does not contain substantive content related to the Porosoff Research Group or any particular achievements or events associated with its members. It primarily consists of generic information about the YouTube platform and copyright details associated with Google LLC. There is no relevant information to summarize regarding the main content requested.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.youtube.com/watch?v=fGBcf3_VHEs" target="_blank">Jane Agwara Featured in Hajim Promo</a>
+    <div class="date">2023-01-01 - UR Chem Eng News (2023)</div>
+    <div class="summary">The text provided does not contain substantial information about the Hajim School of Engineering & Applied Sciences at the University of Rochester or any specific achievements or events related to the Porosoff Research Group or its members. It primarily consists of generic YouTube interface language and copyright information. Therefore, a detailed summary or a congratulatory remark cannot be generated based on this content.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/2023/2023-11-04_aiche_poster_winner-sun.html" target="_blank">Undergrads Win Big at AIChE Poster Competition</a>
+    <div class="date">2023-01-01 - UR Chem Eng News (2023)</div>
+    <div class="summary">Yiwen Sun, Phyllis Ong, and Adel Fadhul from the Porosoff Research Group won awards at the 2023 AIChE annual student conference held in Orlando, Florida. Yiwen secured second place in Catalysis and Reaction Engineering II, Phyllis won first place in Catalysis and Reaction Engineering, Division III, and Adel took second place in Fuels, Petrochem and Energy, Division II. The awards were presented by Omega Chi Epsilon, marking notable achievements for the members of the Porosoff Research Group. Congratulations to Yiwen, Phyllis, and Adel on their impressive accomplishments!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/2023/2023-05-22_getz.html" target="_blank">ChemE Student Receives a Fulbright Grant</a>
+    <div class="date">2023-01-01 - UR Chem Eng News (2023)</div>
+    <div class="summary">Danielle Getz, a member of the Porosoff Research Group, has been awarded a Fulbright U.S. Student Grant to study and conduct research at the University of Copenhagen's Center for High Entropy Alloy Catalysis in Denmark. She will engage in graduate coursework in chemistry and focus her research on high-entropy alloy catalysts, exploring renewable chemical production pathways aimed at reducing carbon dioxide emissions. Congratulations to Danielle on this outstanding achievement!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/2022/2022-12-05_fall-ta-award.html" target="_blank">Danielle Getz and Quinn Yu Win Fall TA Awards</a>
+    <div class="date">2022-01-01 - UR Chem Eng News (2022)</div>
+    <div class="summary">Seniors Danielle Getz and Quinn Yu won the Fall 2022 Outstanding Teaching Assistant Award at the University of Rochester. This award honors undergraduate students who have excelled in their roles as teaching assistants in Chemical Engineering courses. Their achievement recognizes their exceptional service and contribution to the educational process during that semester. Congratulations to both Danielle and Quinn on this notable accomplishment!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/2022/2022-09-26-getz.html" target="_blank">Outstanding Student</a>
+    <div class="date">2022-01-01 - UR Chem Eng News (2022)</div>
+    <div class="summary">Danielle Getz, a chemical engineering major at the University of Rochester, spent her summer working on climate change mitigation research within Marc Porosoff’s research group. As a Grand Challenges Scholar, she is actively involved in structuring her undergraduate experience and networking with like-minded peers, and she has been instrumental in organizing STEM workshops for elementary school girls through the Society of Women Engineers. Post-graduation, Danielle plans to pursue a PhD and hopes to become a professor, manage her own lab, and lead a team of students, driven by her passion for research and team leadership.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/2022/2022-08-15_scialog_nes_story.html" target="_blank">Professor Porosoff Selected as Scialog Fellow for Negative Emissions Science</a>
+    <div class="date">2022-01-01 - UR Chem Eng News (2022)</div>
+    <div class="summary">Professor Marc Porosoff has been named a Fellow for the Scialog initiative, Negative Emission Science (NES), which is co-sponsored by several foundations including the Alfred P. Sloan Foundation and Research Corporation for Science Advancement. The Scialog: NES program focuses on encouraging early-career researchers to engage in high-risk research related to the removal, utilization, and sequestration of greenhouse gases, with collaboration facilitated through conferences and on-the-spot funding proposal competitions. Porosoff, who has a long-standing research interest in developing catalysts for converting carbon dioxide into value-added products, expressed his excitement and honor at being part of this initiative and looks forward to collaborating with other scientists at the upcoming conference.
+
+Congratulations to Professor Porosoff on this notable achievement</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/2022/2022-05-16_hajimschool_ug_award.html" target="_blank">Levi Sunday-Lefkowitz wins Donald M. Barnard Prize</a>
+    <div class="date">2022-01-01 - UR Chem Eng News (2022)</div>
+    <div class="summary">The provided text does not contain any substantive content related to the Porosoff Research Group or its members. It primarily consists of website navigation elements and copyright information for the University of Rochester. There is no information available in the text to summarize any achievements or events related to the Porosoff Research Group.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.rochester.edu/newscenter/faculty-awards-roundup-september-2022-535662/" target="_blank">Recent awards showcase diverse accomplishments of Rochester faculty - University of Rochester</a>
+    <div class="date">2022-10-04 - General News (Google News)</div>
+    <div class="summary">University of Rochester faculty members continue to gain recognition for their professional contributions, including Cary Adams who received two grants from the National Endowment for the Arts and the Maine Arts Commission for his innovative art installations in environmental humanities. Hussein Aluie, an associate professor of mechanical engineering, was awarded the 2021 Editors’ Citation for Excellence in Refereeing for the Journal of Advances in Modeling Earth Systems, underscoring the importance of peer review in scientific integrity. Additionally, Jiebo Luo, a professor of computer science, has been invited to join Academia Europaea, reflecting his sustained excellence in computer vision and multimedia fields, while Leila Nadir, associate professor of environmental humanities, received a MacDowell Fellowship to support her book project,</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.rochester.edu/newscenter/these-students-thrive-where-stem-humanities-intersect-537162/" target="_blank">These students thrive where STEM, humanities intersect - University of Rochester</a>
+    <div class="date">2022-10-13 - General News (Google News)</div>
+    <div class="summary">Three senior undergraduate students at the Hajim School of Engineering & Applied Sciences have been awarded the Wells Award for their exceptional performance in both their engineering majors and humanities fields. One of the recipients, Valerie Battista, will soon start a full-time position as a software engineer and has combined her studies in computer science with a passion for music, planning to double major due to the flexible curriculum at the University of Rochester. Danielle Getz, another recipient, has conducted significant research in Marc Porosoff's lab focused on mitigating climate change and plans to pursue a PhD, complementing her chemical engineering major with a minor in environmental humanities to broaden her perspective on environmental issues.
+
+Congratulations to the students for their outstanding achievements and best wishes in their future endeavors!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/archive/2021/2021-11-15-che150.html" target="_blank">SYKES AWARD PROJECT</a>
+    <div class="date">2021-01-01 - UR Chem Eng News (2021)</div>
+    <div class="summary">Marc Porosoff, an assistant professor of chemical engineering at the University of Rochester, along with teaching assistants Levi Sunday-Lefkowitz and Peri Fogel, used a $15,000 Sykes award to transform how CHE 150: Introduction to Sustainable Energy is taught. This reimagined course format has received positive feedback from students, highlighting its effectiveness in making them enthusiastic about sustainable energy and its role in reducing CO2 emissions. Students praised the course for its comprehensive integration of physics, math, and chemistry to understand sustainable energy, recommending it highly to prospective engineering students and others interested in the field. Congratulations to Marc, Levi, and Peri on their successful efforts in enhancing educational approaches to sustainable energy!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/archive/2021/2021-11-01-sykes-award-illuminates-next-level-of-sustainable-energy-class.html" target="_blank">Sykes award illuminates next level of sustainable energy class</a>
+    <div class="date">2021-01-01 - UR Chem Eng News (2021)</div>
+    <div class="summary">This fall at the University of Rochester, Marc Porosoff's course CHE 150: Introduction to Sustainable Energy engaged students in a hands-on project to design and build solar hot water heaters, thanks to a $15,000 Sykes Engineering Award. The course included an in-class experiment using a photovoltaic array to demonstrate the conversion efficiencies of solar energy to electricity and then to heat, revealing a low efficiency of 9 percent. Students worked in teams to innovate beyond a commercial solar water heating kettle, experimenting with various designs to improve efficiency, with some teams achieving an average efficiency of 24% across all trials. Congratulations to the Porosoff Research Group for their innovative work in sustainable energy education!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/archive/2021/2021-10-01-xprise.html" target="_blank">XPRISE Competition</a>
+    <div class="date">2021-01-01 - UR Chem Eng News (2021)</div>
+    <div class="summary">Elon Musk's XPRIZE Carbon Removal Competition has inspired over 30 students from the Hajim School of Engineering to participate in designing a device that can remove carbon dioxide from the atmosphere and convert it into commercially viable materials. Led by PhD student Jane Agwara and mentored by Assistant Professor Marc Porosoff, the team is competing for a $250,000 prize and is currently waiting to find out if their proposal will advance them to the next stage, which involves building a prototype. This initiative is an excellent example of students applying classroom knowledge to address significant global challenges, such as climate change.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/archive/2021/2021-01-24_mueller.html" target="_blank">Mueller's Paper Selected as Editor's Choice</a>
+    <div class="date">2021-01-01 - UR Chem Eng News (2021)</div>
+    <div class="summary">Professor Astrid M. Mueller of the Porosoff Research Group was recognized by the Catalysis Science & Technology Editorial Board for her article on multi-elemental copper-free electrocatalysts. The article, titled "Selective CO2 reduction towards a single upgraded product: a minireview," was highly praised and chosen as this month's Editor's Choice. It will be featured on the journal's blog and highlighted to the community. Congratulations to Professor Mueller on this notable achievement!</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.rochester.edu/newscenter/chemical-catalyst-helps-convert-seawater-into-fuel-industrial-scale-444112/" target="_blank">This low-cost catalyst helps turn seawater into fuel at scale - University of Rochester</a>
+    <div class="date">2020-07-15 - General News (Google News)</div>
+    <div class="summary">Researchers at the University of Rochester, in collaboration with the Naval Research Laboratory and other partners, have made significant progress in converting seawater into fuel by developing a low-cost, potassium-promoted molybdenum carbide catalyst that efficiently converts carbon dioxide to carbon monoxide. This advancement, described in the journal Energy & Environmental Science, represents a critical step in the process of producing fuel from seawater, a method that could potentially allow navy ships to operate continuously without the need for conventional fuel resupply. The catalyst has shown no signs of deactivation during a 10-day pilot-scale study, proving its potential for industrial scale use and further applications in capturing carbon dioxide from power plants.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/archive/2019/2019_07_porosoffresearch.html" target="_blank">Putting theory into practice in quest to convert CO2</a>
+    <div class="date">2019-01-01 - UR Chem Eng News (2019)</div>
+    <div class="summary">Three University of Rochester chemical engineering undergraduates, Eve Marealle, Aime Laurent Twizerimana, and Madeline Vonglis, are actively applying their classroom knowledge in assistant professor Marc Porosoff's lab, focusing on converting carbon dioxide into useful chemicals. Marealle and Twizerimana, both Xerox Engineering Research Fellows, are exploring ways to transform carbon dioxide into ethylene and propylene, while Vonglis, an Eisenberg Summer Intern, is investigating the use of molybdenum carbide as a catalyst for converting carbon dioxide into carbon monoxide, which could potentially be used to produce synthetic jet fuel. The students value the hands-on research experience as crucial preparation for their future careers, with each expressing a strong</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.rochester.edu/newscenter/summer-in-rochester-means-research-390542/" target="_blank">Summer in Rochester means research - University of Rochester</a>
+    <div class="date">2019-07-24 - General News (Google News)</div>
+    <div class="summary">Last summer at the University of Rochester, Hannah Simons and Noah Bertram engaged in individual research projects with faculty mentors, exploring topics from legislative processes affecting women to independent studies in mathematics. This summer, they are part of a research team led by Professor Chen Ding, focusing on understanding data transfer bottlenecks in computer systems. The university provides a rich environment for undergraduate research, highlighted by the diverse academic interests of the students and the hands-on experiences they gain, which are particularly beneficial during the less-busy summer months.</div>
+  </div>
+
+  <div class="article">
+    <a class="title" href="https://www.hajim.rochester.edu/che/news-events/news/archive/2018/2018-05-20_porosoff-award.html" target="_blank">Professor Porosoff wins award to develop reverse water-gas shift catalysts</a>
+    <div class="date">2018-01-01 - UR Chem Eng News (2018)</div>
+    <div class="summary">Assistant Professor Marc D. Porosoff of the University of Rochester's chemical engineering department has received a $60,000 University Research Award to develop a new method for synthesizing nano-sized reverse water-gas shift (RWGS) catalysts. This development aims to initiate a long-term research program focused on converting CO2 into plastics, chemicals, and fuels through hydrogenation. Additionally, there is potential for collaboration with the newly established Advanced Materials for Powerful Lasers (AMPL) center, which could enhance the project through laser-based materials processing techniques. Congratulations to Professor Porosoff and his team on this promising advancement.</div>
+  </div>
+
+</body>
+</html>
